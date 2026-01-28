@@ -29,9 +29,96 @@
                   "hint": "Mean = sum / number of observations",
                   "explanation": "Sum = 55, Mean = 5.5",
                   "difficulty": 1
+                },
+{
+                  "id": 502,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "The mean of first 10 natural numbers is:",
+                  "optionA": "4.5",
+                  "optionB": "5",
+                  "optionC": "5.5",
+                  "optionD": "6",
+                  "correctOption": "C",
+                  "hint": "Mean = sum / number of observations",
+                  "explanation": "Sum = 55, Mean = 5.5",
+                  "difficulty": 1
+                },
+{
+                  "id": 503,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "The mean of first 10 natural numbers is:",
+                  "optionA": "4.5",
+                  "optionB": "5",
+                  "optionC": "5.5",
+                  "optionD": "6",
+                  "correctOption": "C",
+                  "hint": "Mean = sum / number of observations",
+                  "explanation": "Sum = 55, Mean = 5.5",
+                  "difficulty": 1
                 }
+
+
+              ]
+            },
+ {
+              "testId": 2,
+              "title": "Statistics – Test 2",
+              "difficulty": 1,
+              "questions": [
+                {
+                  "id": 504,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "The mean of first 10 natural numbers is:",
+                  "optionA": "4.5",
+                  "optionB": "5",
+                  "optionC": "5.5",
+                  "optionD": "6",
+                  "correctOption": "C",
+                  "hint": "Mean = sum / number of observations",
+                  "explanation": "Sum = 55, Mean = 5.5",
+                  "difficulty": 1
+                },
+{
+                  "id": 505,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "The mean of first 10 natural numbers is:",
+                  "optionA": "4.5",
+                  "optionB": "5",
+                  "optionC": "5.5",
+                  "optionD": "6",
+                  "correctOption": "C",
+                  "hint": "Mean = sum / number of observations",
+                  "explanation": "Sum = 55, Mean = 5.5",
+                  "difficulty": 1
+                },
+{
+                  "id": 506,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "The mean of first 10 natural numbers is:",
+                  "optionA": "4.5",
+                  "optionB": "5",
+                  "optionC": "5.5",
+                  "optionD": "6",
+                  "correctOption": "C",
+                  "hint": "Mean = sum / number of observations",
+                  "explanation": "Sum = 55, Mean = 5.5",
+                  "difficulty": 1
+                }
+
+
               ]
             }
+
           ]
         }
       ]
