@@ -321,8 +321,9 @@
                   "hint": "π is an irrational number.",
                   "explanation": "Irrational numbers like π have non-terminating, non-repeating decimals.",
                   "difficulty": 2
-                }
-              ]
+                     ]
+            }
+          ]
         }
       ]
     }
