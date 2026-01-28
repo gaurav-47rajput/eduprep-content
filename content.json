@@ -4,7 +4,7 @@
   "subjectName": "Mathematics",
   "chapters": [
 
-    /* ===================== CHAPTER 1 ===================== */
+   
     {
       "chapterId": 12,
       "chapterName": "Statistics",
@@ -36,7 +36,7 @@
       ]
     },
 
-    /* ===================== CHAPTER 2 ===================== */
+
     {
       "chapterId": 13,
       "chapterName": "Surface Areas and Volumes",
@@ -68,7 +68,7 @@
       ]
     },
 
-    /* ===================== CHAPTER 3 ===================== */
+  
     {
       "chapterId": 14,
       "chapterName": "Probability",
