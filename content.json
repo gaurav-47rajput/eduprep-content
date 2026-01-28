@@ -3,8 +3,6 @@
   "subjectId": 1,
   "subjectName": "Mathematics",
   "chapters": [
-
-   
     {
       "chapterId": 13,
       "chapterName": "Statistics",
@@ -18,7 +16,7 @@
               "id": 501,
               "class": 10,
               "subjectId": 1,
-              "chapterId": 12,
+              "chapterId": 13,
               "chapterName": "Statistics",
               "questionNumber": 1,
               "questionText": "The mean of first 10 natural numbers is:",
@@ -27,16 +25,113 @@
               "optionC": "5.5",
               "optionD": "6",
               "correctOption": "C",
-              "hint": "Mean = sum / total numbers",
-              "explanation": "Sum of first 10 natural numbers = 55. Mean = 55 / 10 = 5.5.",
+              "hint": "Mean = sum / number of observations",
+              "explanation": "Sum of first 10 natural numbers = 55. Mean = 55 ÷ 10 = 5.5.",
               "difficulty": 1
+            },
+            {
+              "id": 502,
+              "class": 10,
+              "subjectId": 1,
+              "chapterId": 13,
+              "chapterName": "Statistics",
+              "questionNumber": 2,
+              "questionText": "If the mean of 5 observations is 20, what is their sum?",
+              "optionA": "50",
+              "optionB": "100",
+              "optionC": "80",
+              "optionD": "120",
+              "correctOption": "B",
+              "hint": "Sum = mean × number of observations",
+              "explanation": "Sum = 20 × 5 = 100.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "testId": 2,
+          "title": "Statistics – Test 2",
+          "difficulty": 2,
+          "questions": [
+            {
+              "id": 503,
+              "class": 10,
+              "subjectId": 1,
+              "chapterId": 13,
+              "chapterName": "Statistics",
+              "questionNumber": 1,
+              "questionText": "The mean of the first 5 odd natural numbers is:",
+              "optionA": "3",
+              "optionB": "5",
+              "optionC": "7",
+              "optionD": "9",
+              "correctOption": "B",
+              "hint": "Odd numbers: 1, 3, 5, 7, 9",
+              "explanation": "Sum = 25, Mean = 25 ÷ 5 = 5.",
+              "difficulty": 2
+            },
+            {
+              "id": 504,
+              "class": 10,
+              "subjectId": 1,
+              "chapterId": 13,
+              "chapterName": "Statistics",
+              "questionNumber": 2,
+              "questionText": "If the mean of x, 6, 10 is 8, find x.",
+              "optionA": "6",
+              "optionB": "8",
+              "optionC": "10",
+              "optionD": "14",
+              "correctOption": "D",
+              "hint": "Mean = (sum of observations) ÷ total observations",
+              "explanation": "(x + 6 + 10) ÷ 3 = 8 → x + 16 = 24 → x = 14.",
+              "difficulty": 2
+            }
+          ]
+        },
+        {
+          "testId": 3,
+          "title": "Statistics – Test 3",
+          "difficulty": 3,
+          "questions": [
+            {
+              "id": 505,
+              "class": 10,
+              "subjectId": 1,
+              "chapterId": 13,
+              "chapterName": "Statistics",
+              "questionNumber": 1,
+              "questionText": "The mean of 7 observations is 15. If six observations are 10, 12, 14, 16, 18, 20, find the 7th observation.",
+              "optionA": "15",
+              "optionB": "20",
+              "optionC": "25",
+              "optionD": "30",
+              "correctOption": "C",
+              "hint": "Total sum = mean × number of observations",
+              "explanation": "Total sum = 15 × 7 = 105. Sum of six observations = 90. Missing observation = 15.",
+              "difficulty": 3
+            },
+            {
+              "id": 506,
+              "class": 10,
+              "subjectId": 1,
+              "chapterId": 13,
+              "chapterName": "Statistics",
+              "questionNumber": 2,
+              "questionText": "If the mean of 10 numbers is 25, one number is excluded and the mean becomes 24. What is the excluded number?",
+              "optionA": "30",
+              "optionB": "32",
+              "optionC": "34",
+              "optionD": "35",
+              "correctOption": "C",
+              "hint": "Compare total sums before and after exclusion",
+              "explanation": "Original sum = 250, New sum = 216, Excluded number = 34.",
+              "difficulty": 3
             }
           ]
         }
       ]
     },
-
-
     {
       "chapterId": 12,
       "chapterName": "Surface Areas and Volumes",
@@ -50,7 +145,7 @@
               "id": 530,
               "class": 10,
               "subjectId": 1,
-              "chapterId": 13,
+              "chapterId": 12,
               "chapterName": "Surface Areas and Volumes",
               "questionNumber": 1,
               "questionText": "What is the curved surface area of a sphere of radius 7 cm?",
@@ -67,8 +162,6 @@
         }
       ]
     },
-
-  
     {
       "chapterId": 14,
       "chapterName": "Probability",
@@ -92,13 +185,12 @@
               "optionD": "7/8",
               "correctOption": "A",
               "hint": "No heads means all tails (TTT).",
-              "explanation": "✓ Total outcomes = 8.\n✓ Only one outcome has no heads: {TTT}.\n✓ P(No heads) = 1 / 8.\n✓ Thus, option A is correct.",
+              "explanation": "Total outcomes = 8, favourable outcome = 1 → Probability = 1/8.",
               "difficulty": 2
             }
           ]
         }
       ]
     }
-
   ]
 }
