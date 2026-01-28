@@ -1,331 +1,51 @@
 {
-  "version": 1,
-  "classLevel": 10,
-  "subjects": [
-    {
-      "subjectId": 1,
-      "subjectName": "Mathematics",
-      "chapters": [
-        {
-          "chapterId": 1,
-          "chapterName": "Real Numbers",
-          "tests": [
-            {
-              "testId": 1,
-              "title": "Real Numbers – Test 1",
-              "difficulty": 1,
-              "questions": [
-                {
-                  "id": 1,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The HCF of 95 and 152 is:",
-                  "optionA": "57",
-                  "optionB": "1",
-                  "optionC": "19",
-                  "optionD": "38",
-                  "correctOption": "C",
-                  "hint": "Divide the larger number by the smaller one or use prime factorization.",
-                  "explanation": "95 = 5 × 19. 152 = 8 × 19. Common factor is 19.",
-                  "difficulty": 1
-                },
-                {
-                  "id": 2,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The LCM of two numbers is 1200. Which of the following cannot be their HCF?",
-                  "optionA": "600",
-                  "optionB": "500",
-                  "optionC": "400",
-                  "optionD": "200",
-                  "correctOption": "B",
-                  "hint": "HCF must always be a factor of the LCM.",
-                  "explanation": "1200 is not divisible by 500. HCF must divide LCM exactly.",
-                  "difficulty": 2
-                },
-                {
-                  "id": 3,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "If n is a natural number, then 6ⁿ - 5ⁿ always ends with:",
-                  "optionA": "1",
-                  "optionB": "3",
-                  "optionC": "5",
-                  "optionD": "7",
-                  "correctOption": "A",
-                  "hint": "Check the last digit for n=1 and n=2.",
-                  "explanation": "6ⁿ ends in 6, 5ⁿ ends in 5. 6 - 5 = 1.",
-                  "difficulty": 2
-                },
-                {
-                  "id": 4,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The product of a non-zero rational and an irrational number is:",
-                  "optionA": "Always rational",
-                  "optionB": "Always irrational",
-                  "optionC": "Rational or irrational",
-                  "optionD": "One",
-                  "correctOption": "B",
-                  "hint": "Think of 2 multiplied by √3.",
-                  "explanation": "Product of rational and irrational is always irrational.",
-                  "difficulty": 1
-                },
-                {
-                  "id": 5,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The exponent of 2 in the prime factorization of 144 is:",
-                  "optionA": "2",
-                  "optionB": "3",
-                  "optionC": "4",
-                  "optionD": "5",
-                  "correctOption": "C",
-                  "hint": "Factorize 144: 2 × 72...",
-                  "explanation": "144 = 2⁴ × 3². Exponent of 2 is 4.",
-                  "difficulty": 1
-                },
-                {
-                  "id": 6,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The LCM of the smallest prime number and the smallest composite number is:",
-                  "optionA": "2",
-                  "optionB": "3",
-                  "optionC": "4",
-                  "optionD": "1",
-                  "correctOption": "C",
-                  "hint": "Smallest prime is 2; smallest composite is 4.",
-                  "explanation": "Smallest prime = 2. Smallest composite = 4. LCM(2, 4) = 4.",
-                  "difficulty": 1
-                },
-                {
-                  "id": 7,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "If HCF(26, 169) = 13, then LCM(26, 169) is:",
-                  "optionA": "26",
-                  "optionB": "52",
-                  "optionC": "338",
-                  "optionD": "13",
-                  "correctOption": "C",
-                  "hint": "HCF × LCM = Product of two numbers.",
-                  "explanation": "LCM = (26 × 169) / 13 = 2 × 169 = 338.",
-                  "difficulty": 2
-                },
-                {
-                  "id": 8,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "Which of the following is an irrational number?",
-                  "optionA": "3.14",
-                  "optionB": "3.141414...",
-                  "optionC": "3.14414441...",
-                  "optionD": "22/7",
-                  "correctOption": "C",
-                  "hint": "Irrational numbers are non-terminating and non-repeating.",
-                  "explanation": "Option C is non-terminating and non-repeating.",
-                  "difficulty": 2
-                },
-                {
-                  "id": 9,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The decimal expansion of 23 / (2² × 5) will terminate after:",
-                  "optionA": "One place",
-                  "optionB": "Two places",
-                  "optionC": "Three places",
-                  "optionD": "Four places",
-                  "correctOption": "B",
-                  "hint": "Check the highest power of 2 or 5 in the denominator.",
-                  "explanation": "Highest power in denominator is 2² (exponent 2).",
-                  "difficulty": 2
-                },
-                {
-                  "id": 10,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The HCF of two co-prime numbers is:",
-                  "optionA": "0",
-                  "optionB": "1",
-                  "optionC": "Product of numbers",
-                  "optionD": "Difference of numbers",
-                  "correctOption": "B",
-                  "hint": "Co-prime numbers have no common factors other than 1.",
-                  "explanation": "By definition, co-prime numbers have HCF = 1.",
-                  "difficulty": 1
-                }
-              ]
-            },
-            {
-              "testId": 2,
-              "title": "Real Numbers – Test 2",
-              "difficulty": 2,
-              "questions": [
-                {
-                  "id": 11,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "If a and b are two positive integers such that a = x³y² and b = xy³, where x, y are prime numbers, then HCF(a, b) is:",
-                  "optionA": "xy",
-                  "optionB": "xy²",
-                  "optionC": "x³y³",
-                  "optionD": "x²y²",
-                  "correctOption": "B",
-                  "hint": "HCF is the product of the smallest power of each common prime factor.",
-                  "explanation": "Common x power is 1, common y power is 2. So HCF = xy².",
-                  "difficulty": 2
-                },
-                {
-                  "id": 12,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The product of two consecutive positive integers is always divisible by:",
-                  "optionA": "2",
-                  "optionB": "3",
-                  "optionC": "4",
-                  "optionD": "5",
-                  "correctOption": "A",
-                  "hint": "Try 1×2, 2×3, 3×4.",
-                  "explanation": "In any two consecutive integers, one is always even (divisible by 2).",
-                  "difficulty": 1
-                },
-                {
-                  "id": 13,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The largest number which divides 70 and 125, leaving remainders 5 and 8 respectively, is:",
-                  "optionA": "13",
-                  "optionB": "65",
-                  "optionC": "875",
-                  "optionD": "1750",
-                  "correctOption": "A",
-                  "hint": "Find HCF of (70-5) and (125-8).",
-                  "explanation": "HCF of 65 and 117 is 13.",
-                  "difficulty": 3
-                },
-                {
-                  "id": 14,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "If the HCF of 65 and 117 is expressible in the form 65m - 117, then the value of m is:",
-                  "optionA": "4",
-                  "optionB": "2",
-                  "optionC": "1",
-                  "optionD": "3",
-                  "correctOption": "B",
-                  "hint": "Calculate HCF(65, 117) first.",
-                  "explanation": "HCF is 13. 65m - 117 = 13 → 65m = 130 → m = 2.",
-                  "difficulty": 3
-                },
-                {
-                  "id": 15,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The least number that is divisible by all the numbers from 1 to 10 (both inclusive) is:",
-                  "optionA": "10",
-                  "optionB": "100",
-                  "optionC": "504",
-                  "optionD": "2520",
-                  "correctOption": "D",
-                  "hint": "Calculate the LCM of 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.",
-                  "explanation": "LCM(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2520.",
-                  "difficulty": 3
-                },
-                {
-                  "id": 16,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The sum of a rational and an irrational number is:",
-                  "optionA": "Always rational",
-                  "optionB": "Always irrational",
-                  "optionC": "Rational or irrational",
-                  "optionD": "Zero",
-                  "correctOption": "B",
-                  "hint": "Example: 2 + √3.",
-                  "explanation": "Adding a rational and irrational always results in an irrational number.",
-                  "difficulty": 1
-                },
-                {
-                  "id": 17,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "Every positive even integer is of the form ____ for some integer q.",
-                  "optionA": "q",
-                  "optionB": "2q",
-                  "optionC": "2q + 1",
-                  "optionD": "q + 2",
-                  "correctOption": "B",
-                  "hint": "Even numbers are multiples of 2.",
-                  "explanation": "2q is the standard form for even integers (divisible by 2).",
-                  "difficulty": 1
-                },
-                {
-                  "id": 18,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "Every positive odd integer is of the form ____ for some integer q.",
-                  "optionA": "q",
-                  "optionB": "2q",
-                  "optionC": "2q + 1",
-                  "optionD": "q + 1",
-                  "correctOption": "C",
-                  "hint": "Odd numbers are 1 more than even numbers.",
-                  "explanation": "2q + 1 is the general form for all odd integers.",
-                  "difficulty": 1
-                },
-                {
-                  "id": 19,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "If p is a prime number, then √p is:",
-                  "optionA": "Rational",
-                  "optionB": "Irrational",
-                  "optionC": "Integer",
-                  "optionD": "None of these",
-                  "correctOption": "B",
-                  "hint": "Example: √2, √3, √5.",
-                  "explanation": "The square root of any prime number is always irrational.",
-                  "difficulty": 1
-                },
-                {
-                  "id": 20,
-                  "class": 10,
-                  "subjectId": 1,
-                  "chapterId": 1,
-                  "questionText": "The decimal expansion of π is:",
-                  "optionA": "Terminating",
-                  "optionB": "Recurring",
-                  "optionC": "Non-terminating and non-recurring",
-                  "optionD": "None of these",
-                  "correctOption": "C",
-                  "hint": "π is an irrational number.",
-                  "explanation": "Irrational numbers like π have non-terminating, non-repeating decimals.",
-                  "difficulty": 2
-                     ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+  "version": 1,
+  "classLevel": 10,
+  "subjects": [
+    {
+      "subjectId": 1,
+      "subjectName": "Mathematics",
+      "chapters": [
+        {
+          "chapterId": 13,
+          "chapterName": "Statistics",
+          "tests": [
+            {
+              "testId": 1,
+              "title": "Statistics – Test 1",
+              "difficulty": 1,
+              "questions": [
+                {
+                  "id": 501,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "The mean of first 10 natural numbers is:",
+                  "optionA": "4.5",
+                  "optionB": "5",
+                  "optionC": "5.5",
+                  "optionD": "6",
+                  "correctOption": "C",
+                  "hint": "Mean = sum / number of observations",
+                  "explanation": "Sum = 55, Mean = 5.5",
+                  "difficulty": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subjectId": 2,
+      "subjectName": "Science",
+      "chapters": [
+        {
+          "chapterId": 1,
+          "chapterName": "Light – Reflection and Refraction",
+          "tests": []
+        }
+      ]
+    }
+  ]
+} add more test for maths subject
