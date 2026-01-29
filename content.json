@@ -30,7 +30,7 @@
                   "explanation": "Sum = 55, Mean = 5.5",
                   "difficulty": 1
                 },
-{
+                {
                   "id": 502,
                   "class": 10,
                   "subjectId": 1,
@@ -45,7 +45,7 @@
                   "explanation": "Sum = 55, Mean = 5.5",
                   "difficulty": 1
                 },
-{
+                {
                   "id": 503,
                   "class": 10,
                   "subjectId": 1,
@@ -60,11 +60,9 @@
                   "explanation": "Sum = 55, Mean = 5.5",
                   "difficulty": 1
                 }
-
-
               ]
             },
- {
+            {
               "testId": 2,
               "title": "Statistics – Test 2",
               "difficulty": 1,
@@ -84,7 +82,7 @@
                   "explanation": "Sum = 55, Mean = 5.5",
                   "difficulty": 1
                 },
-{
+                {
                   "id": 505,
                   "class": 10,
                   "subjectId": 1,
@@ -99,7 +97,7 @@
                   "explanation": "Sum = 55, Mean = 5.5",
                   "difficulty": 1
                 },
-{
+                {
                   "id": 506,
                   "class": 10,
                   "subjectId": 1,
@@ -114,11 +112,60 @@
                   "explanation": "Sum = 55, Mean = 5.5",
                   "difficulty": 1
                 }
-
-
+              ]
+            },
+            {
+              "testId": 3,
+              "title": "Statistics – Test 3",
+              "difficulty": 2,
+              "questions": [
+                {
+                  "id": 507,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "The mode of the data 2, 3, 4, 3, 5 is:",
+                  "optionA": "2",
+                  "optionB": "3",
+                  "optionC": "4",
+                  "optionD": "5",
+                  "correctOption": "B",
+                  "hint": "Mode is the value with highest frequency",
+                  "explanation": "3 occurs twice, others once",
+                  "difficulty": 2
+                },
+                {
+                  "id": 508,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "The median of 1, 3, 5, 7, 9 is:",
+                  "optionA": "3",
+                  "optionB": "5",
+                  "optionC": "7",
+                  "optionD": "9",
+                  "correctOption": "B",
+                  "hint": "Median is the middle value",
+                  "explanation": "Middle value is 5",
+                  "difficulty": 2
+                },
+                {
+                  "id": 509,
+                  "class": 10,
+                  "subjectId": 1,
+                  "chapterId": 13,
+                  "questionText": "If mean of 5 observations is 10, their sum is:",
+                  "optionA": "50",
+                  "optionB": "40",
+                  "optionC": "10",
+                  "optionD": "5",
+                  "correctOption": "A",
+                  "hint": "Sum = Mean × Number of observations",
+                  "explanation": "10 × 5 = 50",
+                  "difficulty": 2
+                }
               ]
             }
-
           ]
         }
       ]
@@ -135,4 +182,4 @@
       ]
     }
   ]
-} 
+}
