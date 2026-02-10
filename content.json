@@ -480,7 +480,164 @@
                   "difficulty": 1
                 }
               ]
-            }
+            },
+            {
+  "testId": 4,
+  "title": "Real Numbers – Test 4",
+  "difficulty": 2,
+  "questions": [
+    {
+      "id": 31,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "If two positive integers p and q can be expressed as p = ab² and q = a³b, where a, b are prime numbers, then find LCM(p, q).",
+      "optionA": "ab",
+      "optionB": "a²b²",
+      "optionC": "a³b²",
+      "optionD": "a³b³",
+      "correctOption": "C",
+      "hint": "LCM is the product of the highest powers of all prime factors involved.",
+      "explanation": "Comparing p = a¹b² and q = a³b¹, the highest power of 'a' is a³ and 'b' is b². Thus, LCM = a³b².",
+      "difficulty": 2
+    },
+    {
+      "id": 32,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "The decimal expansion of the rational number 14587/1250 will terminate after how many decimal places?",
+      "optionA": "One",
+      "optionB": "Two",
+      "optionC": "Three",
+      "optionD": "Four",
+      "correctOption": "D",
+      "hint": "Check the prime factorization of the denominator.",
+      "explanation": "1250 = 2¹ × 5⁴. The number of decimal places is determined by the highest exponent of 2 or 5, which is 4.",
+      "difficulty": 2
+    },
+    {
+      "id": 33,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "If n is a natural number, then 9ⁿ - 5ⁿ is always divisible by:",
+      "optionA": "Only 2",
+      "optionB": "Only 4",
+      "optionC": "Both 2 and 4",
+      "optionD": "Only 14",
+      "correctOption": "C",
+      "hint": "Recall that (xⁿ - yⁿ) is always divisible by (x - y).",
+      "explanation": "9ⁿ - 5ⁿ is divisible by (9 - 5) = 4. Since it is divisible by 4, it is also divisible by 2.",
+      "difficulty": 3
+    },
+    {
+      "id": 34,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "The HCF of the smallest composite number and the smallest prime number is:",
+      "optionA": "1",
+      "optionB": "2",
+      "optionC": "3",
+      "optionD": "4",
+      "correctOption": "B",
+      "hint": "Smallest prime is 2; smallest composite is 4.",
+      "explanation": "Smallest prime = 2. Smallest composite = 4. HCF(2, 4) = 2.",
+      "difficulty": 1
+    },
+    {
+      "id": 35,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "If HCF(306, 657) = 9, what is the LCM(306, 657)?",
+      "optionA": "22338",
+      "optionB": "23338",
+      "optionC": "22388",
+      "optionD": "22339",
+      "correctOption": "A",
+      "hint": "Use the formula: LCM = (Product of numbers) / HCF",
+      "explanation": "LCM = (306 × 657) / 9 = 34 × 657 = 22338.",
+      "difficulty": 2
+    },
+    {
+      "id": 36,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "Which of the following cannot be the unit digit of a perfect square number?",
+      "optionA": "0",
+      "optionB": "1",
+      "optionC": "8",
+      "optionD": "6",
+      "correctOption": "C",
+      "hint": "Square numbers 1-10 and check their last digits.",
+      "explanation": "Perfect squares end in 0, 1, 4, 5, 6, or 9. They never end in 2, 3, 7, or 8.",
+      "difficulty": 1
+    },
+    {
+      "id": 37,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "The total number of factors of a prime number is:",
+      "optionA": "1",
+      "optionB": "2",
+      "optionC": "0",
+      "optionD": "Infinite",
+      "correctOption": "B",
+      "hint": "Definition of a prime number.",
+      "explanation": "A prime number has exactly two factors: 1 and itself.",
+      "difficulty": 1
+    },
+    {
+      "id": 38,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "If the HCF of 65 and 117 is expressible in the form 65m - 117, then the value of m is:",
+      "optionA": "4",
+      "optionB": "2",
+      "optionC": "1",
+      "optionD": "3",
+      "correctOption": "B",
+      "hint": "Find HCF(65, 117) first, then solve for m.",
+      "explanation": "HCF(65, 117) = 13. Given 65m - 117 = 13. So, 65m = 130, which gives m = 2.",
+      "difficulty": 3
+    },
+    {
+      "id": 39,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "The exponent of 2 in the prime factorization of 144 is:",
+      "optionA": "2",
+      "optionB": "4",
+      "optionC": "3",
+      "optionD": "5",
+      "correctOption": "B",
+      "hint": "Factorize 144 into prime factors.",
+      "explanation": "144 = 12² = (2² × 3)² = 2⁴ × 3². The exponent of 2 is 4.",
+      "difficulty": 2
+    },
+    {
+      "id": 40,
+      "class": 10,
+      "subjectId": 1,
+      "chapterId": 1,
+      "questionText": "If two numbers 'a' and 'b' are such that their HCF is 1, then 'a' and 'b' are:",
+      "optionA": "Always prime",
+      "optionB": "Co-prime",
+      "optionC": "Composite",
+      "optionD": "Even",
+      "correctOption": "B",
+      "hint": "This is the definition of a specific type of pair.",
+      "explanation": "Numbers that have only 1 as a common factor are called co-prime numbers.",
+      "difficulty": 1
+    }
+  ]
+}
           ]
         }
       ]
